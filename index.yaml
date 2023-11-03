@@ -1,0 +1,39 @@
+extends:
+  - '@jhae/stylelint-config-standard-scss'
+rules:
+  at-rule-disallowed-list:
+    - import
+    - debug
+  color-hex-length: long
+  color-named:
+    - never
+    - ignore:
+        - inside-function
+  declaration-block-no-duplicate-properties: true
+  font-weight-notation: numeric
+  property-no-unknown: null
+  rule-empty-line-before:
+    - always
+    - except:
+        - first-nested
+      ignore:
+        - after-comment
+  selector-max-id: 1
+
+  # SCSS
+  scss/at-each-key-value-single-line: true
+  scss/at-function-named-arguments:
+    - always
+    - ignore:
+        - single-argument
+  scss/at-mixin-argumentless-call-parentheses: always
+  scss/at-mixin-named-arguments:
+    - always
+    - ignore:
+        - single-argument
+  scss/block-no-redundant-nesting: true
+  scss/dimension-no-non-numeric-values: true
+  scss/dollar-variable-colon-newline-after: always-multi-line
+  scss/dollar-variable-colon-space-after: always-single-line
+  scss/function-calculation-no-interpolation: true
+  scss/property-no-unknown: true
