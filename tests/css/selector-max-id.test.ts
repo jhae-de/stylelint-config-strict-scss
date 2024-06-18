@@ -22,7 +22,7 @@ RuleTest.describe(
     `,
     expect: {
       errored: true,
-      messages: ['Expected "#foo #bar" to have no more than 1 ID selector'],
+      messages: ['Expected "& #bar" to have no more than 1 ID selector'],
       severities: ['error'],
     },
   },
@@ -35,7 +35,7 @@ RuleTest.describe(
     `,
     expect: {
       errored: true,
-      messages: ['Expected "#foo > #bar" to have no more than 1 ID selector'],
+      messages: ['Expected "& > #bar" to have no more than 1 ID selector'],
       severities: ['error'],
     },
   },
