@@ -1,4 +1,5 @@
 import { RuleTest } from '@jhae/stylelint-rule-tester';
+import { type Severity } from 'stylelint';
 
 RuleTest.setConfigFile('index.yaml');
 
@@ -14,8 +15,8 @@ RuleTest.describe(
     `,
     expect: {
       errored: true,
-      messages: new Array(4).fill('Expected a named parameter to be used in at-include call'),
-      severities: new Array(4).fill('error'),
+      messages: new Array(4).fill('Expected a named parameter to be used in at-include call') as string[],
+      severities: new Array(4).fill('error') as Severity[],
     },
   },
   {
