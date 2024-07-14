@@ -15,7 +15,7 @@ RuleTest.describe(
     `,
     expect: {
       errored: true,
-      messages: ['Unexpected interpolation in "calc".'],
+      messages: ['Unexpected interpolation in calculation function'],
       severities: ['error'],
     },
   },
@@ -30,7 +30,7 @@ RuleTest.describe(
     `,
     expect: {
       errored: true,
-      messages: ['Unexpected interpolation in "max".'],
+      messages: ['Unexpected interpolation in calculation function'],
       severities: ['error'],
     },
   },
@@ -45,7 +45,7 @@ RuleTest.describe(
     `,
     expect: {
       errored: true,
-      messages: ['Unexpected interpolation in "min".'],
+      messages: ['Unexpected interpolation in calculation function'],
       severities: ['error'],
     },
   },
@@ -60,7 +60,7 @@ RuleTest.describe(
     `,
     expect: {
       errored: true,
-      messages: ['Unexpected interpolation in "clamp".'],
+      messages: ['Unexpected interpolation in calculation function'],
       severities: ['error'],
     },
   },
