@@ -46,7 +46,9 @@ rules:
   scss/dimension-no-non-numeric-values: true
   scss/dollar-variable-colon-newline-after: always-multi-line
   scss/dollar-variable-colon-space-after: always-single-line
-  scss/function-calculation-no-interpolation: true
+  scss/function-calculation-no-interpolation:
+    - true
+    - message: Unexpected interpolation in calculation function (scss/function-calculation-no-interpolation)
   scss/no-unused-private-members:
     - true
     - message: Expected usage of private member within the stylesheet (scss/no-unused-private-members)

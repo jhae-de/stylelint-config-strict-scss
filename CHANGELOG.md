@@ -17,6 +17,11 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 - `scss/no-unused-private-members` rule
 - `scss/selector-no-redundant-nesting-selector` rule
 
+### Changed
+
+- Updated dependencies
+  - `@jhae/stylelint-config-standard-scss@3.0.0`
+
 ## [1.1.0] - 2024-06-18
 
 ### Changed
