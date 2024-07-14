@@ -7,6 +7,16 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [2.0.0] - 2024-07-14
+
+### Added
+
+- `selector-no-qualifying-type` rule
+- `scss/at-mixin-no-risky-nesting-selector` rule
+- `scss/at-root-no-redundant` rule
+- `scss/no-unused-private-members` rule
+- `scss/selector-no-redundant-nesting-selector` rule
+
 ## [1.1.0] - 2024-06-18
 
 ### Changed
@@ -39,6 +49,7 @@ Initial release
 - `scss/function-calculation-no-interpolation` rule
 - `scss/property-no-unknown` rule
 
-[Unreleased]: https://github.com/jhae-de/stylelint-config-strict-scss/compare/v1.1.0...main
+[Unreleased]: https://github.com/jhae-de/stylelint-config-strict-scss/compare/v2.0.0...main
+[2.0.0]: https://github.com/jhae-de/stylelint-config-strict-scss/releases/tag/v2.0.0
 [1.1.0]: https://github.com/jhae-de/stylelint-config-strict-scss/releases/tag/v1.1.0
 [1.0.0]: https://github.com/jhae-de/stylelint-config-strict-scss/releases/tag/v1.0.0
