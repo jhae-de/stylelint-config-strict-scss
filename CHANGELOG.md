@@ -7,6 +7,13 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [2.1.0] - 2024-08-18
+
+### Changed
+
+- Updated dependencies
+  - `@jhae/stylelint-config-standard-scss@3.1.0`
+
 ## [2.0.0] - 2024-07-14
 
 ### Added
