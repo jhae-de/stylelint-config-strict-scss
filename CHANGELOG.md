@@ -7,12 +7,19 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [2.2.0] - 2024-09-24
+
+### Changed
+
+- Updated dependencies
+  - `@jhae/stylelint-config-standard-scss@3.2`
+
 ## [2.1.0] - 2024-08-18
 
 ### Changed
 
 - Updated dependencies
-  - `@jhae/stylelint-config-standard-scss@3.1.0`
+  - `@jhae/stylelint-config-standard-scss@3.1`
 
 ## [2.0.0] - 2024-07-14
 
@@ -27,14 +34,14 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 ### Changed
 
 - Updated dependencies
-  - `@jhae/stylelint-config-standard-scss@3.0.0`
+  - `@jhae/stylelint-config-standard-scss@3.0`
 
 ## [1.1.0] - 2024-06-18
 
 ### Changed
 
 - Updated dependencies
-  - `@jhae/stylelint-config-standard-scss@2.1.0`
+  - `@jhae/stylelint-config-standard-scss@2.1`
 
 ## [1.0.0] - 2023-11-04
 
@@ -61,7 +68,9 @@ Initial release
 - `scss/function-calculation-no-interpolation` rule
 - `scss/property-no-unknown` rule
 
-[Unreleased]: https://github.com/jhae-de/stylelint-config-strict-scss/compare/v2.0.0...main
+[Unreleased]: https://github.com/jhae-de/stylelint-config-strict-scss/compare/v2.2.0...main
+[2.2.0]: https://github.com/jhae-de/stylelint-config-strict-scss/releases/tag/v2.2.0
+[2.1.0]: https://github.com/jhae-de/stylelint-config-strict-scss/releases/tag/v2.1.0
 [2.0.0]: https://github.com/jhae-de/stylelint-config-strict-scss/releases/tag/v2.0.0
 [1.1.0]: https://github.com/jhae-de/stylelint-config-strict-scss/releases/tag/v1.1.0
 [1.0.0]: https://github.com/jhae-de/stylelint-config-strict-scss/releases/tag/v1.0.0
