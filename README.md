@@ -11,7 +11,7 @@ To see the rules that this config uses, please read the [config itself](/index.y
 
 ## Installation
 
-```bash
+```shell
 npm install --save-dev @jhae/stylelint-config-strict-scss
 ```
 
