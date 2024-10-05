@@ -1,9 +1,10 @@
 extends:
   - '@jhae/stylelint-config-standard-scss'
+
 rules:
   at-rule-disallowed-list:
-    - import
     - debug
+    - import
   color-hex-length: long
   color-named:
     - never
@@ -54,3 +55,10 @@ rules:
     - message: Expected usage of private member within the stylesheet (scss/no-unused-private-members)
   scss/property-no-unknown: true
   scss/selector-no-redundant-nesting-selector: true
+
+overrides:
+  - files:
+      - '*.css'
+      - '**/*.css'
+    rules:
+      at-rule-disallowed-list: null
