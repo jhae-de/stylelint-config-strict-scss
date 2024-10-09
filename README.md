@@ -7,7 +7,7 @@
 This config extends
 the [stylelint-config-standard-scss](https://github.com/jhae-de/stylelint-config-standard-scss) shared config.
 
-To see the rules that this config uses, please read the [config itself](/index.yaml).
+To see the rules that this config uses, please read the [config itself](index.yaml).
 
 ## Installation
 
@@ -17,22 +17,12 @@ npm install --save-dev @jhae/stylelint-config-strict-scss
 
 ## Usage
 
-Create your `.stylelintrc.yaml` file with the following content:
+Set your Stylelint config to:
 
 ```yaml
 extends:
   - '@jhae/stylelint-config-strict-scss'
 ```
 
-### Extending the config
-
-Simply add a `rules` key to your config, then add your overrides and additions there.
-
-For example, to turn off the `scss/dollar-variable-pattern` rule:
-
-```yaml
-extends:
-  - '@jhae/stylelint-config-strict-scss'
-rules:
-  scss/dollar-variable-pattern: null
-```
+Please refer to the [Stylelint documentation](https://stylelint.io) to find out how to use the linter and customize this
+config.
