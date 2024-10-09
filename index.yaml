@@ -45,8 +45,6 @@ rules:
     - message: Unexpected @at-root rule (scss/at-root-no-redundant)
   scss/block-no-redundant-nesting: true
   scss/dimension-no-non-numeric-values: true
-  scss/dollar-variable-colon-newline-after: always-multi-line
-  scss/dollar-variable-colon-space-after: always-single-line
   scss/function-calculation-no-interpolation:
     - true
     - message: Unexpected interpolation in calculation function (scss/function-calculation-no-interpolation)
