@@ -7,6 +7,13 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [2.5.0] - 2024-10-10
+
+### Added
+
+- `declaration-property-value-disallowed-list` rule
+  - Disallowed value `none` for `border` properties
+
 ## [2.4.0] - 2024-10-09
 
 ### Removed
@@ -81,7 +88,8 @@ Initial release
 - `scss/function-calculation-no-interpolation` rule
 - `scss/property-no-unknown` rule
 
-[Unreleased]: https://github.com/jhae-de/stylelint-config-strict-scss/compare/v2.4.0...main
+[Unreleased]: https://github.com/jhae-de/stylelint-config-strict-scss/compare/v2.5.0...main
+[2.5.0]: https://github.com/jhae-de/stylelint-config-strict-scss/releases/tag/v2.5.0
 [2.4.0]: https://github.com/jhae-de/stylelint-config-strict-scss/releases/tag/v2.4.0
 [2.3.0]: https://github.com/jhae-de/stylelint-config-strict-scss/releases/tag/v2.3.0
 [2.2.0]: https://github.com/jhae-de/stylelint-config-strict-scss/releases/tag/v2.2.0

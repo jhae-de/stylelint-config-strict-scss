@@ -11,6 +11,17 @@ rules:
     - ignore:
         - inside-function
   declaration-block-no-duplicate-properties: true
+  declaration-property-value-disallowed-list:
+    border:
+      - none
+    border-top:
+      - none
+    border-right:
+      - none
+    border-bottom:
+      - none
+    border-left:
+      - none
   font-weight-notation: numeric
   property-no-unknown: null
   rule-empty-line-before:
