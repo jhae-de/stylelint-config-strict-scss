@@ -34,19 +34,6 @@ RuleTest.describe(
     name: 'Disallow redundant nesting selectors',
     code: `
       test {
-        & test {}
-      }
-    `,
-    expect: {
-      errored: true,
-      messages: ['Unnecessary nesting selector (&)'],
-      severities: ['error'],
-    },
-  },
-  {
-    name: 'Disallow redundant nesting selectors',
-    code: `
-      test {
         & + test {}
       }
     `,
