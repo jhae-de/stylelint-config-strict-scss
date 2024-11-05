@@ -7,6 +7,12 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [2.6.0] - 2024-11-05
+
+### Added
+
+- `scss/function-color-channel` rule
+
 ### Changed
 
 - `declaration-property-value-disallowed-list` rule
