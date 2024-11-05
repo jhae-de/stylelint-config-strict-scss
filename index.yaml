@@ -22,6 +22,8 @@ rules:
       - none
     border-left:
       - none
+    outline:
+      - none
   font-weight-notation: numeric
   property-no-unknown: null
   rule-empty-line-before:
