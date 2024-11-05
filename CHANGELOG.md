@@ -9,6 +9,8 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ### Changed
 
+- `declaration-property-value-disallowed-list` rule
+  - Disallowed value `none` for `outline` property
 - Updated dependencies
   - `stylelint@^16.10`
   - `stylelint-scss@^6.8`
