@@ -4,8 +4,8 @@
 
 # Strict SCSS Stylelint Config
 
-This config extends
-the [stylelint-config-standard-scss](https://github.com/jhae-de/stylelint-config-standard-scss) shared config.
+This config extends the [stylelint-config-standard-scss](https://github.com/jhae-de/stylelint-config-standard-scss)
+shared config.
 
 To see the rules that this config uses, please read the [config itself](index.yaml).
 
@@ -19,9 +19,10 @@ npm install --save-dev @jhae/stylelint-config-strict-scss
 
 Set your Stylelint config to:
 
-```yaml
-extends:
-  - '@jhae/stylelint-config-strict-scss'
+```json
+{
+  "extends": "@jhae/stylelint-config-strict-scss"
+}
 ```
 
 Please refer to the [Stylelint documentation](https://stylelint.io) to find out how to use the linter and customize this
