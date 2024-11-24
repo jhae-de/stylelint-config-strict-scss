@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0) and this project adheres
 to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [3.0.0] - 2024-11-24
+
+### Changed
+
+- Bumped `@jhae/stylelint-config-standard-scss` from `3.2.1` to `4.0.0`  
+  Release notes: [4.0.0](https://github.com/jhae-de/stylelint-config-standard-scss/releases/tag/v4.0.0)
+
 ## [2.6.0] - 2024-11-05
 
 ### Added
@@ -103,7 +110,8 @@ Initial release
 - `scss/function-calculation-no-interpolation` rule
 - `scss/property-no-unknown` rule
 
-[Unreleased]: https://github.com/jhae-de/stylelint-config-strict-scss/compare/v2.6.0...main
+[Unreleased]: https://github.com/jhae-de/stylelint-config-strict-scss/compare/v3.0.0...main
+[3.0.0]: https://github.com/jhae-de/stylelint-config-strict-scss/releases/tag/v3.0.0
 [2.6.0]: https://github.com/jhae-de/stylelint-config-strict-scss/releases/tag/v2.6.0
 [2.5.0]: https://github.com/jhae-de/stylelint-config-strict-scss/releases/tag/v2.5.0
 [2.4.0]: https://github.com/jhae-de/stylelint-config-strict-scss/releases/tag/v2.4.0
