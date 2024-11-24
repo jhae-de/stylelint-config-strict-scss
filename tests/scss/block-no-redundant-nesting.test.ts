@@ -1,9 +1,7 @@
-import { RuleTest } from '@jhae/stylelint-rule-tester';
+import { ConfigVerifier } from '@jhae/stylelint-config-verifier';
 import { type Severity } from 'stylelint';
 
-RuleTest.setConfigFile('index.yaml');
-
-RuleTest.describe(
+new ConfigVerifier('index.yaml').verify(
   'scss/block-no-redundant-nesting',
   {
     name: 'Disallow nesting a single block if it could be merged with its parent block',

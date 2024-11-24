@@ -1,8 +1,6 @@
-import { RuleTest } from '@jhae/stylelint-rule-tester';
+import { ConfigVerifier } from '@jhae/stylelint-config-verifier';
 
-RuleTest.setConfigFile('index.yaml');
-
-RuleTest.describe(
+new ConfigVerifier('index.yaml').verify(
   'at-rule-disallowed-list',
   {
     name: 'Disallow @debug rule',
@@ -24,6 +22,6 @@ RuleTest.describe(
   },
   {
     name: 'Allow @import rule in CSS files',
-    files: './tests/.resources/at-rule-disallowed-list.css',
+    file: './tests/.resources/at-rule-disallowed-list.css',
   },
 );
