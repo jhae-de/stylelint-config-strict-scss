@@ -1,10 +1,8 @@
-import { RuleTest } from '@jhae/stylelint-rule-tester';
-
-RuleTest.setConfigFile('index.yaml');
+import { ConfigVerifier } from '@jhae/stylelint-config-verifier';
 
 // This rule is disabled in favor of scss/property-no-unknown, so unknown properties should be allowed.
 
-RuleTest.describe('property-no-unknown', {
+new ConfigVerifier('index.yaml').verify('property-no-unknown', {
   name: 'Allow unknown properties',
   code: `
     test {
