@@ -50,21 +50,13 @@ rules:
     - always
     - ignore:
         - single-argument
-  scss/at-mixin-no-risky-nesting-selector:
-    - true
-    - message: Unexpected nested parent selector in @mixin rule (scss/at-mixin-no-risky-nesting-selector)
-  scss/at-root-no-redundant:
-    - true
-    - message: Unexpected @at-root rule (scss/at-root-no-redundant)
+  scss/at-mixin-no-risky-nesting-selector: true
+  scss/at-root-no-redundant: true
   scss/block-no-redundant-nesting: true
   scss/dimension-no-non-numeric-values: true
-  scss/function-calculation-no-interpolation:
-    - true
-    - message: Unexpected interpolation in calculation function (scss/function-calculation-no-interpolation)
+  scss/function-calculation-no-interpolation: true
   scss/function-color-channel: true
-  scss/no-unused-private-members:
-    - true
-    - message: Expected usage of private member within the stylesheet (scss/no-unused-private-members)
+  scss/no-unused-private-members: true
   scss/property-no-unknown: true
   scss/selector-no-redundant-nesting-selector: true
 
