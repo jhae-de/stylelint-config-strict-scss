@@ -13,7 +13,7 @@ new ConfigVerifier('index.yaml').verify(
     `,
     expect: {
       errored: true,
-      messages: ['Unexpected interpolation in calculation function'],
+      messages: ['Unexpected interpolation in "calc"'],
       severities: ['error'],
     },
   },
@@ -28,7 +28,7 @@ new ConfigVerifier('index.yaml').verify(
     `,
     expect: {
       errored: true,
-      messages: ['Unexpected interpolation in calculation function'],
+      messages: ['Unexpected interpolation in "max"'],
       severities: ['error'],
     },
   },
@@ -43,7 +43,7 @@ new ConfigVerifier('index.yaml').verify(
     `,
     expect: {
       errored: true,
-      messages: ['Unexpected interpolation in calculation function'],
+      messages: ['Unexpected interpolation in "min"'],
       severities: ['error'],
     },
   },
@@ -58,7 +58,7 @@ new ConfigVerifier('index.yaml').verify(
     `,
     expect: {
       errored: true,
-      messages: ['Unexpected interpolation in calculation function'],
+      messages: ['Unexpected interpolation in "clamp"'],
       severities: ['error'],
     },
   },

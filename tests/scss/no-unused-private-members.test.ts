@@ -5,65 +5,65 @@ new ConfigVerifier('index.yaml').verify(
   {
     name: 'Disallow unused private members',
     code: `
-      @function _function1() {}
-      @function _function2() {}
+      @function _function-1() {}
+      @function _function-2() {}
       
       test {
-        width: _function1();
+        width: _function-1();
       }
     `,
     expect: {
       errored: true,
-      messages: ['Expected usage of private member within the stylesheet'],
+      messages: ['Expected usage of private member "-function-2" within the stylesheet'],
       severities: ['error'],
     },
   },
   {
     name: 'Disallow unused private members',
     code: `
-      @mixin _mixin1 {}
-      @mixin mixin2 {}
+      @mixin _mixin-1 {}
+      @mixin mixin-2 {}
       
       test {
-        @include mixin2;
+        @include mixin-2;
       }
     `,
     expect: {
       errored: true,
-      messages: ['Expected usage of private member within the stylesheet'],
+      messages: ['Expected usage of private member "-mixin-1" within the stylesheet'],
       severities: ['error'],
     },
   },
   {
     name: 'Disallow unused private members',
     code: `
-      $variable1: 0;
-      $-variable2: 0;
+      $variable-1: 0;
+      $-variable-2: 0;
       
       test {
-        width: $variable1;
+        width: $variable-1;
       }
     `,
     expect: {
       errored: true,
-      messages: ['Expected usage of private member within the stylesheet'],
+      messages: ['Expected usage of private member "$-variable-2" within the stylesheet'],
       severities: ['error'],
     },
   },
   {
     name: 'Disallow unused private members',
     code: `
-      %-placeholder1:hover {}
-      test.%placeholder2 {}
+      %-placeholder-1:hover {}
+      test.%placeholder-2 {}
       
       test {
-        @extend %placeholder2;
+        @extend %placeholder-2;
         width: 0;
       }
     `,
     expect: {
       errored: true,
-      messages: ['Expected usage of private member within the stylesheet'],
+      messages: ['Expected usage of private member "%-placeholder-1" within the stylesheet'],
       severities: ['error'],
     },
   },

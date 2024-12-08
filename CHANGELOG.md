@@ -5,6 +5,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0) and this project adheres
 to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [3.1.0] - 2024-12-08
+
+### Changed
+
+- Removed custom messages from
+  - `scss/at-mixin-no-risky-nesting-selector` rule
+  - `scss/at-root-no-redundant` rule
+  - `scss/function-calculation-no-interpolation` rule
+  - `scss/no-unused-private-members` rule
+- Bumped `@jhae/stylelint-config-standard-scss` from `4.0.0` to `4.1.0`  
+  Release notes: [4.1.0](https://github.com/jhae-de/stylelint-config-standard-scss/releases/tag/v4.1.0)
+- Bumped `stylelint` from `16.10.0` to `16.11.0`  
+  Release notes: [16.11.0](https://github.com/stylelint/stylelint/releases/tag/16.11.0)
+
 ## [3.0.0] - 2024-11-24
 
 ### Changed
@@ -24,10 +38,8 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
   Disallowed value `none` for `outline` property
 - Bumped `stylelint` from `16.9.0` to `16.10.0`  
   Release notes: [16.10.0](https://github.com/stylelint/stylelint/releases/tag/16.10.0)
-- Bumped `stylelint-scss` from `6.7.0` to `6.8.1`  
-  Release notes:
-  [6.8.0](https://github.com/stylelint-scss/stylelint-scss/releases/tag/v6.8.0) |
-  [6.8.1](https://github.com/stylelint-scss/stylelint-scss/releases/tag/v6.8.1)
+- Bumped `stylelint-scss` from `6.7.0` to `6.8.0`  
+  Release notes: [6.8.0](https://github.com/stylelint-scss/stylelint-scss/releases/tag/v6.8.0)
 
 ## [2.5.0] - 2024-10-10
 
@@ -110,7 +122,8 @@ Initial release
 - `scss/function-calculation-no-interpolation` rule
 - `scss/property-no-unknown` rule
 
-[Unreleased]: https://github.com/jhae-de/stylelint-config-strict-scss/compare/v3.0.0...main
+[Unreleased]: https://github.com/jhae-de/stylelint-config-strict-scss/compare/v3.1.0...main
+[3.1.0]: https://github.com/jhae-de/stylelint-config-strict-scss/releases/tag/v3.1.0
 [3.0.0]: https://github.com/jhae-de/stylelint-config-strict-scss/releases/tag/v3.0.0
 [2.6.0]: https://github.com/jhae-de/stylelint-config-strict-scss/releases/tag/v2.6.0
 [2.5.0]: https://github.com/jhae-de/stylelint-config-strict-scss/releases/tag/v2.5.0
