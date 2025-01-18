@@ -7,7 +7,7 @@ new ConfigVerifier('index.yaml').verify(
     code: '@debug "Debug";',
     expect: {
       errored: true,
-      messages: ['Unexpected at-rule "debug"'],
+      messages: ['Unexpected at-rule "@debug"'],
       severities: ['error'],
     },
   },
@@ -16,7 +16,7 @@ new ConfigVerifier('index.yaml').verify(
     code: '@import "test.css";',
     expect: {
       errored: true,
-      messages: ['Unexpected at-rule "import"'],
+      messages: ['Unexpected at-rule "@import"'],
       severities: ['error'],
     },
   },
