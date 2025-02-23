@@ -5,12 +5,25 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0) and this project adheres
 to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## [4.0.0] - 2025-02-23
+
+### Added
+
+- `scss/no-duplicate-load-rules` rule
+
+### Changed
 
 - Bumped `stylelint` from `16.11.0` to `16.13.0`  
   Release notes:
   [16.12.0](https://github.com/stylelint/stylelint/releases/tag/16.12.0) |
   [16.13.0](https://github.com/stylelint/stylelint/releases/tag/16.13.0)
+- Bumped `stylelint-scss` from `6.8.0` to `6.11.0`  
+  Release notes:
+  [6.8.1](https://github.com/stylelint-scss/stylelint-scss/releases/tag/v6.8.1) |
+  [6.9.0](https://github.com/stylelint-scss/stylelint-scss/releases/tag/v6.9.0) |
+  [6.10.0](https://github.com/stylelint-scss/stylelint-scss/releases/tag/v6.10.0) |
+  [6.10.1](https://github.com/stylelint-scss/stylelint-scss/releases/tag/v6.10.1) |
+  [6.11.0](https://github.com/stylelint-scss/stylelint-scss/releases/tag/v6.11.0)
 
 ## [3.1.0] - 2024-12-08
 
@@ -129,7 +142,8 @@ Initial release
 - `scss/function-calculation-no-interpolation` rule
 - `scss/property-no-unknown` rule
 
-[Unreleased]: https://github.com/jhae-de/stylelint-config-strict-scss/compare/v3.1.0...main
+[Unreleased]: https://github.com/jhae-de/stylelint-config-strict-scss/compare/v4.0.0...main
+[4.0.0]: https://github.com/jhae-de/stylelint-config-strict-scss/releases/tag/v4.0.0
 [3.1.0]: https://github.com/jhae-de/stylelint-config-strict-scss/releases/tag/v3.1.0
 [3.0.0]: https://github.com/jhae-de/stylelint-config-strict-scss/releases/tag/v3.0.0
 [2.6.0]: https://github.com/jhae-de/stylelint-config-strict-scss/releases/tag/v2.6.0
