@@ -22,8 +22,8 @@
     "test:watch": "npm run-script test -- --watchAll"
   },
   "dependencies": {
-    "@jhae/stylelint-config-standard-scss": "^4.1",
-    "stylelint": "^16.13",
+    "@jhae/stylelint-config-standard-scss": "^4.2",
+    "stylelint": "^16.15",
     "stylelint-scss": "^6.11"
   },
   "devDependencies": {
@@ -38,7 +38,7 @@
     "prettier": "^3.5",
     "ts-jest": "^29.2",
     "typescript": "^5.7",
-    "typescript-eslint": "^8.24"
+    "typescript-eslint": "^8.25"
   },
   "keywords": [
     "config",

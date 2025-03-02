@@ -5,6 +5,24 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0) and this project adheres
 to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [5.0.0] - 2025-03-02
+
+### Added
+
+- `syntax-string-no-invalid` rule
+
+### Changed
+
+- Bumped `@jhae/stylelint-config-standard-scss` from `4.1.0` to `4.2.0`  
+  Release notes: [4.2.0](https://github.com/jhae-de/stylelint-config-standard-scss/releases/tag/v4.2.0)
+- Bumped `stylelint` from `16.13.0` to `16.15.0`  
+  Release notes:
+  [16.13.1](https://github.com/stylelint/stylelint/releases/tag/16.13.1) |
+  [16.13.2](https://github.com/stylelint/stylelint/releases/tag/16.13.2) |
+  [16.14.0](https://github.com/stylelint/stylelint/releases/tag/16.14.0) |
+  [16.14.1](https://github.com/stylelint/stylelint/releases/tag/16.14.1) |
+  [16.15.0](https://github.com/stylelint/stylelint/releases/tag/16.15.0)
+
 ## [4.0.0] - 2025-02-23
 
 ### Added
@@ -142,7 +160,8 @@ Initial release
 - `scss/function-calculation-no-interpolation` rule
 - `scss/property-no-unknown` rule
 
-[Unreleased]: https://github.com/jhae-de/stylelint-config-strict-scss/compare/v4.0.0...main
+[Unreleased]: https://github.com/jhae-de/stylelint-config-strict-scss/compare/v5.0.0...main
+[5.0.0]: https://github.com/jhae-de/stylelint-config-strict-scss/releases/tag/v5.0.0
 [4.0.0]: https://github.com/jhae-de/stylelint-config-strict-scss/releases/tag/v4.0.0
 [3.1.0]: https://github.com/jhae-de/stylelint-config-strict-scss/releases/tag/v3.1.0
 [3.0.0]: https://github.com/jhae-de/stylelint-config-strict-scss/releases/tag/v3.0.0
