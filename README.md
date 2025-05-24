@@ -1,6 +1,7 @@
-![Version](https://img.shields.io/npm/v/%40jhae/stylelint-config-strict-scss?label=Version)
-![License](https://img.shields.io/github/license/jhae-de/stylelint-config-strict-scss?label=License&color=lightgrey)
-![Tests](https://img.shields.io/github/actions/workflow/status/jhae-de/stylelint-config-strict-scss/analyze.yaml?label=Tests)
+![Version](https://img.shields.io/npm/v/%40jhae/stylelint-config-strict-scss?label=Version&labelColor=%23404850&color=blue)
+![License](https://img.shields.io/github/license/jhae-de/stylelint-config-strict-scss?label=License&labelColor=%23404850&color=blue)
+![Downloads](https://img.shields.io/npm/dt/%40jhae%2Fstylelint-config-strict-scss?label=Downloads&labelColor=%23404850&color=blue)
+![Tests](https://img.shields.io/github/actions/workflow/status/jhae-de/stylelint-config-strict-scss/analyze.yaml?label=Tests&labelColor=%23404850)
 
 # Strict SCSS Stylelint Config
 
