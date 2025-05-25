@@ -58,6 +58,11 @@ rules:
   scss/property-no-unknown: true
   scss/selector-no-redundant-nesting-selector: true
 
+reportDescriptionlessDisables: true
+reportInvalidScopeDisables: true
+reportNeedlessDisables: true
+reportUnscopedDisables: true
+
 overrides:
   - files:
       - '**/*.scss'
