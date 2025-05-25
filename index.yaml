@@ -2,9 +2,6 @@ extends:
   - '@jhae/stylelint-config-standard-scss'
 
 rules:
-  at-rule-disallowed-list:
-    - debug
-    - import
   color-hex-length: long
   color-named:
     - never
@@ -63,7 +60,8 @@ rules:
 
 overrides:
   - files:
-      - '*.css'
-      - '**/*.css'
+      - '**/*.scss'
     rules:
-      at-rule-disallowed-list: null
+      at-rule-disallowed-list:
+        - debug
+        - import
