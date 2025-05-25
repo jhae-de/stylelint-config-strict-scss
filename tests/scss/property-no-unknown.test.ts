@@ -1,4 +1,5 @@
 import { ConfigVerifier } from '@jhae/stylelint-config-verifier';
+import { Severity } from 'stylelint';
 
 new ConfigVerifier('index.yaml').verify(
   'scss/property-no-unknown',
@@ -20,7 +21,7 @@ new ConfigVerifier('index.yaml').verify(
         'Unexpected unknown property "my-property"',
         'Unexpected unknown property "font-stuff"',
       ],
-      severities: ['error', 'error', 'error'],
+      severities: new Array(3).fill('error') as Severity[],
     },
   },
   {
