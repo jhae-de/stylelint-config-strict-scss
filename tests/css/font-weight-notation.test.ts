@@ -1,4 +1,5 @@
 import { ConfigVerifier } from '@jhae/stylelint-config-verifier';
+import { Severity } from 'stylelint';
 
 new ConfigVerifier('index.yaml').verify(
   'font-weight-notation',
@@ -26,7 +27,7 @@ new ConfigVerifier('index.yaml').verify(
     expect: {
       errored: true,
       messages: ['Expected "normal" to be "400"', 'Expected "bold" to be "700"'],
-      severities: ['error', 'error'],
+      severities: new Array(2).fill('error') as Severity[],
     },
   },
 );
