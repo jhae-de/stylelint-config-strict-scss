@@ -38,7 +38,6 @@ rules:
     - ignore:
         - attribute
         - class
-  syntax-string-no-invalid: true
 
   # SCSS
   scss/at-each-key-value-single-line: true

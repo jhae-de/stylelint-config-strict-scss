@@ -5,6 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0) and this project adheres
 to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### Changed
+
+- Bumped `@jhae/stylelint-config-standard-scss` from `5.0.0` to `6.0.0`  
+  Release notes: [6.0.0](https://github.com/jhae-de/stylelint-config-standard-scss/releases/tag/v6.0.0)
+
+### Removed
+
+- `syntax-string-no-invalid` rule  
+  This rule is now part of the extended `stylelint-config-recommended` configuration.
+
 ## [6.0.0] - 2025-03-30
 
 ### Changed
