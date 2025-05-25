@@ -5,12 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0) and this project adheres
 to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## [7.0.0] - 2025-05-25
 
 ### Changed
 
 - Bumped `@jhae/stylelint-config-standard-scss` from `5.0.0` to `6.0.0`  
   Release notes: [6.0.0](https://github.com/jhae-de/stylelint-config-standard-scss/releases/tag/v6.0.0)
+- Enabled `report*` properties
+  - `reportDescriptionlessDisables`
+  - `reportInvalidScopeDisables`
+  - `reportNeedlessDisables`
+  - `reportUnscopedDisables`
 
 ### Removed
 
@@ -179,7 +184,8 @@ Initial release
 - `scss/function-calculation-no-interpolation` rule
 - `scss/property-no-unknown` rule
 
-[Unreleased]: https://github.com/jhae-de/stylelint-config-strict-scss/compare/v6.0.0...main
+[Unreleased]: https://github.com/jhae-de/stylelint-config-strict-scss/compare/v7.0.0...main
+[7.0.0]: https://github.com/jhae-de/stylelint-config-strict-scss/releases/tag/v7.0.0
 [6.0.0]: https://github.com/jhae-de/stylelint-config-strict-scss/releases/tag/v6.0.0
 [5.0.0]: https://github.com/jhae-de/stylelint-config-strict-scss/releases/tag/v5.0.0
 [4.0.0]: https://github.com/jhae-de/stylelint-config-strict-scss/releases/tag/v4.0.0
