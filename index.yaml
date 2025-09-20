@@ -21,7 +21,6 @@ rules:
     outline:
       - none
   font-weight-notation: numeric
-  property-no-unknown: null
   rule-empty-line-before:
     - always
     - except:
