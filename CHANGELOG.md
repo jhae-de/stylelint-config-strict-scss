@@ -11,6 +11,8 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 - `declaration-block-no-duplicate-properties` rule  
   The inherited setting is now used.
+- `property-no-unknown` rule  
+  The inherited setting is now used.
 
 ## [7.0.0] - 2025-05-25
 
