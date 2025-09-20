@@ -28,11 +28,6 @@ rules:
       ignore:
         - after-comment
   selector-max-id: 1
-  selector-no-qualifying-type:
-    - true
-    - ignore:
-        - attribute
-        - class
 
   # SCSS
   scss/at-each-key-value-single-line: true
