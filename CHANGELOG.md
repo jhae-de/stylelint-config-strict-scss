@@ -5,7 +5,26 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0) and this project adheres
 to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## [8.0.0] - 2025-09-21
+
+### Changed
+
+- Bumped `@jhae/stylelint-config-standard-scss` from `6.0.0` to `7.0.0`  
+  Release notes: [7.0.0](https://github.com/jhae-de/stylelint-config-standard-scss/releases/tag/v7.0.0)
+- Bumped `stylelint` from `16.15.0` to `16.24.0`  
+  Release notes:
+  [16.16.0](https://github.com/stylelint/stylelint/releases/tag/16.16.0) |
+  [16.17.0](https://github.com/stylelint/stylelint/releases/tag/16.17.0) |
+  [16.18.0](https://github.com/stylelint/stylelint/releases/tag/16.18.0) |
+  [16.19.0](https://github.com/stylelint/stylelint/releases/tag/16.19.0) |
+  [16.19.1](https://github.com/stylelint/stylelint/releases/tag/16.19.1) |
+  [16.20.0](https://github.com/stylelint/stylelint/releases/tag/16.20.0) |
+  [16.21.0](https://github.com/stylelint/stylelint/releases/tag/16.21.0) |
+  [16.21.1](https://github.com/stylelint/stylelint/releases/tag/16.21.1) |
+  [16.22.0](https://github.com/stylelint/stylelint/releases/tag/16.22.0) |
+  [16.23.0](https://github.com/stylelint/stylelint/releases/tag/16.23.0) |
+  [16.23.1](https://github.com/stylelint/stylelint/releases/tag/16.23.1) |
+  [16.24.0](https://github.com/stylelint/stylelint/releases/tag/16.24.0)
 
 ### Removed
 
@@ -195,7 +214,8 @@ Initial release
 - `scss/function-calculation-no-interpolation` rule
 - `scss/property-no-unknown` rule
 
-[Unreleased]: https://github.com/jhae-de/stylelint-config-strict-scss/compare/v7.0.0...main
+[Unreleased]: https://github.com/jhae-de/stylelint-config-strict-scss/compare/v8.0.0...main
+[8.0.0]: https://github.com/jhae-de/stylelint-config-strict-scss/releases/tag/v8.0.0
 [7.0.0]: https://github.com/jhae-de/stylelint-config-strict-scss/releases/tag/v7.0.0
 [6.0.0]: https://github.com/jhae-de/stylelint-config-strict-scss/releases/tag/v6.0.0
 [5.0.0]: https://github.com/jhae-de/stylelint-config-strict-scss/releases/tag/v5.0.0
