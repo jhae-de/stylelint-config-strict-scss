@@ -13,6 +13,8 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
   The inherited setting is now used.
 - `property-no-unknown` rule  
   The inherited setting is now used.
+- `selector-no-qualifying-type` rule  
+  The inherited setting is now used.
 
 ## [7.0.0] - 2025-05-25
 
