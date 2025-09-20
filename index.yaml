@@ -7,7 +7,6 @@ rules:
     - never
     - ignore:
         - inside-function
-  declaration-block-no-duplicate-properties: true
   declaration-property-value-disallowed-list:
     border:
       - none
