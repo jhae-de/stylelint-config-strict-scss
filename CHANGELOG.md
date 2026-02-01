@@ -5,6 +5,27 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0) and this project adheres
 to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [9.0.0] - 2026-02-01
+
+### Changed
+
+- Bumped `stylelint` from `16.24.0` to `17.0`  
+  Release notes:
+  [16.25.0](https://github.com/stylelint/stylelint/releases/tag/16.25.0) |
+  [16.26.0](https://github.com/stylelint/stylelint/releases/tag/16.26.0) |
+  [16.26.1](https://github.com/stylelint/stylelint/releases/tag/16.26.1) |
+  [17.0.0](https://github.com/stylelint/stylelint/releases/tag/17.0.0)
+- Bumped `stylelint-scss` from `6.11.0` to `7.0.0`  
+  Release notes:
+  [6.11.1](https://github.com/stylelint-scss/stylelint-scss/releases/tag/v6.11.1) |
+  [6.12.0](https://github.com/stylelint-scss/stylelint-scss/releases/tag/v6.12.0) |
+  [6.12.1](https://github.com/stylelint-scss/stylelint-scss/releases/tag/v6.12.1) |
+  [6.13.0](https://github.com/stylelint-scss/stylelint-scss/releases/tag/v6.13.0) |
+  [6.14.0](https://github.com/stylelint-scss/stylelint-scss/releases/tag/v6.14.0) |
+  [7.0.0](https://github.com/stylelint-scss/stylelint-scss/releases/tag/v7.0.0)
+- Bumped `@jhae/stylelint-config-standard-scss` from `7.0.0` to `8.0.0`  
+  Release notes: [8.0.0](https://github.com/jhae-de/stylelint-config-standard-scss/releases/tag/v8.0.0)
+
 ## [8.0.0] - 2025-09-21
 
 ### Changed
@@ -214,7 +235,8 @@ Initial release
 - `scss/function-calculation-no-interpolation` rule
 - `scss/property-no-unknown` rule
 
-[Unreleased]: https://github.com/jhae-de/stylelint-config-strict-scss/compare/v8.0.0...main
+[Unreleased]: https://github.com/jhae-de/stylelint-config-strict-scss/compare/v9.0.0...main
+[9.0.0]: https://github.com/jhae-de/stylelint-config-strict-scss/releases/tag/v9.0.0
 [8.0.0]: https://github.com/jhae-de/stylelint-config-strict-scss/releases/tag/v8.0.0
 [7.0.0]: https://github.com/jhae-de/stylelint-config-strict-scss/releases/tag/v7.0.0
 [6.0.0]: https://github.com/jhae-de/stylelint-config-strict-scss/releases/tag/v6.0.0
