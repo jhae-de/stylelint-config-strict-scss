@@ -26,6 +26,10 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 - Bumped `@jhae/stylelint-config-standard-scss` from `7.0.0` to `8.0.0`  
   Release notes: [8.0.0](https://github.com/jhae-de/stylelint-config-standard-scss/releases/tag/v8.0.0)
 
+### Removed
+
+- Support for Node.js less than 20
+
 ## [8.0.0] - 2025-09-21
 
 ### Changed
