@@ -7,7 +7,7 @@ new ConfigVerifier('index.yaml').verify(
     code: 'test { color: black; }',
     expect: {
       errored: true,
-      messages: ['Unexpected named color "black"'],
+      messages: ['Disallowed named color "black"'],
       severities: ['error'],
     },
   },

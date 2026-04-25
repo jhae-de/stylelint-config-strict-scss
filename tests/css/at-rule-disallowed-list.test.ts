@@ -8,7 +8,7 @@ new ConfigVerifier('index.yaml').verify(
     file: './tests/.resources/at-rule-disallowed-list.scss',
     expect: {
       errored: true,
-      messages: ['Unexpected at-rule "@import"', 'Unexpected at-rule "@debug"'],
+      messages: ['Disallowed at-rule "@import"', 'Disallowed at-rule "@debug"'],
       severities: new Array(2).fill('error') as Severity[],
     },
   },
