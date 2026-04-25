@@ -7,7 +7,7 @@ new ConfigVerifier('index.yaml').verify(
     code: '#foo #bar {}',
     expect: {
       errored: true,
-      messages: ['Expected "#foo #bar" to have no more than 1 ID selector'],
+      messages: ['Too many ID selectors in "#foo #bar", maximum 1'],
       severities: ['error'],
     },
   },

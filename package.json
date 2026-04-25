@@ -28,7 +28,7 @@
     "test:watch": "npm run-script test -- --watchAll"
   },
   "dependencies": {
-    "@jhae/stylelint-config-standard-scss": "^8.0",
+    "@jhae/stylelint-config-standard-scss": "^9.0",
     "stylelint": "^17.0",
     "stylelint-scss": "^7.0"
   },

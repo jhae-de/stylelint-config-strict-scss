@@ -18,12 +18,12 @@ new ConfigVerifier('index.yaml').verify(
     expect: {
       errored: true,
       messages: [
-        'Unexpected value "none" for property "border"',
-        'Unexpected value "none" for property "border-top"',
-        'Unexpected value "none" for property "border-right"',
-        'Unexpected value "none" for property "border-bottom"',
-        'Unexpected value "none" for property "border-left"',
-        'Unexpected value "none" for property "outline"',
+        'Disallowed value "none" for property "border"',
+        'Disallowed value "none" for property "border-top"',
+        'Disallowed value "none" for property "border-right"',
+        'Disallowed value "none" for property "border-bottom"',
+        'Disallowed value "none" for property "border-left"',
+        'Disallowed value "none" for property "outline"',
       ],
       severities: new Array(6).fill('error') as Severity[],
     },
